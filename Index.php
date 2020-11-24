@@ -20,9 +20,9 @@ if (isset($GET["FirstName"])){ //show feedback
   <p><input type="radio" name="FavoriteColor" value="yellow" />Yellow </p>
   
   <p>Sundae Toppings:</p>
-  <p><input type="radio" name="Toppings[]" value="oreos" /> Oreos </p>
-  <p><input type="radio" name="Toppings[]" value="whipped cream" /> Whipped Cream </p>
-  <p><input type="radio" name="Toppings[]" value="crushed nuts" /> Crushed Nuts </p>
+  <p><input type="radio" name="Toppings[]" value="oreos" />Oreos </p>
+  <p><input type="radio" name="Toppings[]" value="whipped cream" />Whipped Cream </p>
+  <p><input type="radio" name="Toppings[]" value="crushed nuts" />Crushed Nuts </p>
   
   <input type="submit" />
   </form>
