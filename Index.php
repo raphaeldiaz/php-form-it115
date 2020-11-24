@@ -9,12 +9,13 @@ if (isset($GET["FirstName"])){ //show feedback
   echo '</pre>';
   
   
-}else { // show form
+}else {//show form
   echo '
   <form action="">
-  First Name: <input type="text" name="FirstName" /><br />
+  <p>First Name: <input type="text" name="FirstName" /></p>
+  <p>Last Name: <input type="text" name="LastName" /></p>
   <input type="submit" />
   </form>
   ';
 }
-?>
+
